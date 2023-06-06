@@ -92,6 +92,7 @@ body {
 	box-sizing: border-box;
 }
 .card {
+	width:500px;
 	top: 15rem;
 	position: relative;
 	border-radius: 6px;
