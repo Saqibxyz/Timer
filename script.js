@@ -16,10 +16,7 @@ var x = setInterval(function () {
 		var audio = new Audio("alarm.mp3");
 		audio.play();
 		return;
-	} else {
-		var audio = new Audio("tick.mp3");
-		audio.play();
-	}
+	} 
 	document.getElementById("demo").innerHTML =
 		hours + "h " + minutes + "m " + seconds + "s ";
 	document.getElementById("demo1").innerHTML =
